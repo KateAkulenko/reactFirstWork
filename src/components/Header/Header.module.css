@@ -1,0 +1,16 @@
+.header {
+  background: var(--c-violet);
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.wrapper_header {
+    justify-content: space-between;
+    padding-bottom: 50px;
+    align-items: center;
+    padding-top: 50px;
+    display: flex;
+}

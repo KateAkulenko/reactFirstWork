@@ -1,0 +1,33 @@
+:root {
+  --c-white: #fff;
+  --c-black: #000;
+  --c-violet:  blueviolet;
+  --c-violet-dark: #3d025f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}

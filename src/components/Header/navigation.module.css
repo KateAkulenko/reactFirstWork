@@ -1,0 +1,30 @@
+.n_list {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+}
+
+.nav_link {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--c-white);
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  &:hover {
+    color: var(--c-violet-dark);
+    & > .nav_circle {
+      background-color: var(--c-white);
+      border-color: var(--c-white);
+    }
+  }
+}
+
+.nav_circle {
+  transition: background 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--c-white);
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: 15px;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
