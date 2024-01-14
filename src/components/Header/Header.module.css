@@ -7,10 +7,15 @@
   top: 0;
 }
 
-.wrapper_header {
+.wrapper {
     justify-content: space-between;
     padding-bottom: 50px;
     align-items: center;
     padding-top: 50px;
     display: flex;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
 }

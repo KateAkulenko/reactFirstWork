@@ -1,0 +1,21 @@
+.button {
+  background-color: var(--c-violet-dark);
+  justify-content: center;
+  color: var(--c-white);
+  align-items: center;
+  padding-inline: 15px;
+  border-radius: 5px;
+  cursor: pointer;  
+  display: flex;
+  height: 40px;
+  border: none;
+
+  &:hover {
+    background-color: var(--c-white);
+    color: var(--c-black);
+  }
+}
+
+.delete {
+  background: var(--c-delete);
+}
