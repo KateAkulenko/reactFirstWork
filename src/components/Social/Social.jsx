@@ -3,7 +3,6 @@ import list from './Social.data';
 //*style
 import style from './social.module.css';
 
-
 function Social() {
   return (
     <ul className={style.social}>
@@ -14,8 +13,9 @@ function Social() {
               href={item.url}
               className={style.link}
               title={item.title}
-              target="_blank" rel="noreferrer"            
-              >
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg></svg>
             </a>
           </li>
